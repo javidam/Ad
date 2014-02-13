@@ -1,0 +1,2 @@
+select * from categoria c
+where /* not */ exists (select * from articulo a where a.categoria = c.id)

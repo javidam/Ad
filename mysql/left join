@@ -1,0 +1,3 @@
+/* muestra todo lo de la tabla de la izquierda y lo que cumpla la condicion de la otra*/
+select a.id, a.nombre, a.categoria, c.nombre as nombre_Categoria
+from articulo a left join categoria c on a.categoria = c.id

@@ -1,0 +1,3 @@
+/* muestra todo lo de las dos tablas, mysql no lo soporta*/
+select a.id, a.nombre, a.categoria, c.nombre as nombre_Categoria
+from articulo a full join categoria c on a.categoria = c.id
