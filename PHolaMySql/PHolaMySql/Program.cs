@@ -22,10 +22,6 @@ mySqlCommand.ExecuteNonQuery;
 mySqlCommand.CommandText= "select * from categoria";
 
 MySqlDataReader mySqlDataReader= mySqlCommand.ExecuteReader();
-Console.WriteLine("FieldCount={0}", mySqlDataReader.FieldCount);
-for(int index=0; index < mySqlDataReader.FieldCount; index++)
-Console.WriteLine("colum{0}={1}", indexer, mySqlDataReader.getName(indexer));
-
 
 mySqlConnection.Close();
 }
