@@ -5,10 +5,10 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>10.0.0</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{5CF58C06-9171-4757-AB80-0B95EFDA715D}</ProjectGuid>
+    <ProjectGuid>{3993F94F-E518-4294-8D71-8FE164A2ED73}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PHolaMySql</RootNamespace>
-    <AssemblyName>PHolaMySql</AssemblyName>
+    <RootNamespace>PSerpisAd</RootNamespace>
+    <AssemblyName>PSerpisAd</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
@@ -32,11 +32,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="MySql.Data, Version=6.4.3.0, Culture=neutral, PublicKeyToken=20449f9ba87f7ae2">
-      <Private>False</Private>
-      <Package>mysql-connector-net</Package>
-    </Reference>
-    <Reference Include="System.Data" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />

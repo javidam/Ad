@@ -14,11 +14,14 @@ public partial class MainWindow: Gtk.Window
 		a.RetVal = true;
 	}
 
-	protected void OnButtonClicked (object sender, EventArgs e){
+	protected void OnButtonClicked (object sender, EventArgs e)
+	{
 		Console.WriteLine ("has hecho click en Aceptar");
-		labelSaludo.LabelProp;
-
+		labelSaludo.Text = "Hola " + entry.Text;
 	}
 
-
+	protected void OnNewActionActivated (object sender, EventArgs e)
+	{
+		Console.WriteLine ("has activado la acción newAction");
+	}
 }

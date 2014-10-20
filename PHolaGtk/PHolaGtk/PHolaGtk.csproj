@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>10.0.0</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{27097145-D638-4FDB-845A-BB5D9481FE1C}</ProjectGuid>
+    <ProjectGuid>{E495854C-6DFB-4712-B798-13186F13607D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>PHolaGtk</RootNamespace>
     <AssemblyName>PHolaGtk</AssemblyName>
