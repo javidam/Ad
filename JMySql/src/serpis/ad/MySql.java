@@ -33,7 +33,7 @@ public class MySql {
 				break;
 		
 		
-		case 2: PreparedStatement preparedStatement= connection.prepareStatement("select * from categoria where id>=?");
+		case 4: PreparedStatement preparedStatement= connection.prepareStatement("select * from categoria where id>=?");
 				preparedStatement.setLong(1,1);
 				ResultSet resultSet= preparedStatement.executeQuery();
 				
