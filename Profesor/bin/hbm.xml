@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 2: <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+ 3: <hibernate-mapping>
+ 4:   <class name="ejemplo01.Profesor" table="Profesor" >
+ 5:     <id column="Id" name="id" type="integer"/>
+ 6:     <property name="nombre" />
+ 7:     <property name="ape1" />
+ 8:     <property name="ape2" />
+ 9:   </class>
+10: </hibernate-mapping>
